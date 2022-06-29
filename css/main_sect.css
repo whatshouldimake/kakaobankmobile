@@ -72,9 +72,6 @@
   .con6 {
     background-color: #f7f7f7;
   }
-  .con4 {
-    background-color: #559cde;
-  }
   .con1 {
     padding-bottom: 60px;
   }
@@ -98,5 +95,62 @@
     color: #0d5895;
     font-weight: bold;
     border: 1px solid #b5baba;
+  }
+  .con3{
+    padding-bottom: 60px;
+  }
+  .con3 .inner{
+    position: relative;
+  }
+  .con3 .gra{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .con4{
+    background-color: #559cde;
+    color: white;
+
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .con4 p{
+    color: white;
+  }
+  .con4 img{
+    position: relative;
+    top: 50px;
+
+  }
+  .con4.bgdark{   /*선택자를 붙여야함- 자기자신이면 붙여야하고 자손이면 띄어쓰기*/
+    background-color: #183956;
+  }
+  .con5 .more2{
+    border: 1px solid #eaeaea;
+    padding: 18px;
+    border-radius: 4px;
+    margin-top: 46px;
+    margin-bottom: 60px;
+  }
+  .con6 hr{
+    width: 68px;
+    border-bottom: 1px solid #000;
+    margin-top: 30px;
+  }
+  .con6 img{
+    width: 96px;
+  }
+  .con6 li{
+    padding-top: 25px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 50px;
+  }
+  .con6 li:last-child{
+    border: 0;
+  }
+  .con6 h4{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
   }
   
