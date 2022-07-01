@@ -7,15 +7,23 @@
     <title>kakao bank-공지이벤트 수정</title>
     <link rel="stylesheet" href="css/my-reset.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header-sub.css">
+   <link rel="stylesheet" href="css/sub2.css">
+
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/main_sect.css">
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/sub2.js"></script>
+
 </head>
 <body>
     <div id="wrap">
         <header>
-            <h1><a href="index.html">카카오뱅크</a></h1>
+            <h1><a href="index.html" class="bgico">카카오뱅크</a></h1>
             <nav>
-                <button class="btn_show_all_menu">전체 메뉴 보기</button>
+                <button class="btn_show_all_menu bgico">전체 메뉴 보기</button>
                 <div class="all_menu">
                     <h2>카카오뱅크 전체 메뉴</h2>
                     <ul>
@@ -23,13 +31,197 @@
                         <li><a href="sub2_gong.html">공지/이벤트</a></li>
                         <li><a href="sub3_qna.html">자주묻는질문</a></li>
                     </ul>
-                    <button class="btn_hide_all_menu">전체 메뉴 닫기</button>
+                    <button class="btn_hide_all_menu bgico">전체 메뉴 닫기</button>
                 </div>
             </nav>
         </header>
    
         <section>
          <h2>공지/이벤트</h2>
+            <div class="tits">
+                <h3 class="active"><a href="#gong">공지</a></h3>
+                <h3 class=""><a href="#event">이벤트</a></h3>
+            </div>
+            <div class="cons">
+                <div id="gong">
+                <ul>
+                    <li><a href="#">
+                        <p class="tit">마이너스 통장 / 신용대출 서류 제출 서비스 정상화 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">카카오뱅크 전월세보증금 대출 1,000억원 판매달성</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">PAYCO 계좌연결 오픈안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">[당첨자발표] 카카오뱅크 페크카드 해외결제 이벤트 당첨자 발표</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">[당첨자발표] '황금개의 해 이벤트' 4주차 당첨 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">[당첨자발표] '황금개의 해 이벤트' 3주차 당첨 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">[당첨자발표]'황금개의 해 이벤트' 2주차 당첨 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">[당첨자발표] '황금개의 해 이벤트' 1주차 당첨 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">전월세보증금 대출 신규상품 출시안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+
+                    <li><a href="#">
+                        <p class="tit">카카오페이 계좌연결 오픈 안내</p>
+                        <p class="date">2022.06.30</p>
+                        <i class="bgico link">읽기</i>
+                    </a></li>
+                </ul>
+                <p class="pages">1/4 &gt;</p>
+            </div>
+
+            <div id="event">
+                <ul>
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(1).png" alt="특별혜택">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">카카오페이 계좌연결 오픈 안내</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(2).png" alt="캐시백">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">카카오뱅크 프렌즈 체크카드 캐시백 프로모션 시즌2</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(3).png" alt="출금">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] 카카오뱅크 ATM 출금 이벤트</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(4).png" alt="간편이체 이벤트">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] 황금개의 해 기념 카카오뱅크 간편이체 이벤트</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(5).png" alt="해외결제이벤트">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">카카오뱅크 체크카드 해외결제 이벤트</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(6).png" alt="이모티콘 이벤트">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] ATM 무료 연장 기념 신규가입 고객 이모티콘 이벤트</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(7).png" alt="신라면세점">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] 카카오뱅크 고객님께 드리는 신라면세점 특별 혜택</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(8).png" alt="얼리버드">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] 카카오뱅크 프렌즈 체크카드 얼리버드혜택</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <div class="imgbox">
+                        <img src="images/sub02(9).png" alt="런칭기념">
+                        </div>
+                        <div class="conbox">
+                        <p class="tit">[종료] 카카오뱅크 런칭 기념 이모티콘 이벤트</p>
+                        <p class="date">2022.06.30</p>
+                        </div>
+                    </a>
+                    </li>
+
+                </ul>
+                <p class="pages">1/1</p>
+            </div>
+        </div>
         </section>
         <footer>
             <ul>
